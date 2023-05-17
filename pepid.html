@@ -21,9 +21,8 @@
 <body>
     <div class="flex justify-center">
         <div>
-
             <!--1-->
-            <nav class="bg-white border-gray-200 dark:bg-gray-900 px-2">
+            <nav class="fixed w-full bg-white border-gray-200 dark:bg-gray-900 px-2">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="https://flowbite.com/" class="flex items-center">
                         <img src="imagespepid/pepidlogo.png" class="h-8 mr-3" alt="Flowbite Logo" />
@@ -107,295 +106,314 @@
                 </div>
             </nav>
 
-            <!--2-->
-            <div style="background-image: url('https://pepid-clone-amt.netlify.app/static/media/homepage-image-scaled.c4a78f34d4149671f330.jpg');"
-                class="bg-cover bg-no-repeat bg-center h-auto  w-screen flex items-center py-10">
-                <div class="w-11/12 mx-auto py-12">
-                    <h2 class="md:text-7xl text-4xl font-extrabold text-blue-500">
-                        ALL THE ANSWERS. <br> NONE OF THE FLUFF.
-                    </h2>
-                    <p class="text-xl my-5">
-                        Concise, Actionable Medical &amp; Drug Information Resources
+            <div class="mt-15">
+                <!--2-->
+                <div style="background-image: url('https://pepid-clone-amt.netlify.app/static/media/homepage-image-scaled.c4a78f34d4149671f330.jpg');"
+                    class="bg-cover bg-no-repeat bg-center h-screen  w-screen flex items-center py-10">
+                    <div class="w-11/12 mx-auto py-12">
+                        <h2 class="md:text-7xl text-4xl font-extrabold text-blue-500">
+                            ALL THE ANSWERS. <br> NONE OF THE FLUFF.
+                        </h2>
+                        <p class="text-xl my-5">
+                            Concise, Actionable Medical &amp; Drug Information Resources
+                        </p>
+                        <button
+                            class="text-2xl font-bold text-white bg-red-500 hover:bg-red-600 px-6 py-2 rounded-full">
+                            VIEW FEATURES
+                        </button>
+                        <br><br>
+                        <button
+                            class="text-2xl font-bold text-white bg-red-500 hover:bg-red-600 px-6 py-2 rounded-full">
+                            SUBSCRIBE
+                        </button>
+                    </div>
+                </div>
+
+                <!--3-->
+                <div style="background-image: url('https://pepid-clone-amt.netlify.app/static/media/female-doc.987a51f65c8760e0ee1f.jpg');"
+                    class="bg-cover bg-no-repeat bg-center h-auto  w-screen flex items-center py-10 px-2">
+                    <div class="w-screen mx-auto text-center">
+                        <h2 class="text-white font-bold text-3xl md:text-5xl">Unleash Your Potential &amp; Improve
+                            Patient
+                            Outcomes</h2>
+                        <p class="text-gray-100 text-lg my-5">PEPID’s content is specifically designed for you</p>
+                        <p class="text-orange-300 text-2xl font-bold">Please Choose Your Role or Profession</p>
+                        <div class="flex justify-center my-5">
+                            <div class="grid grid-cols-12 gap-5">
+                                <p
+                                    class="text-sm font-bold px-4 py-2 rounded-full bg-white text-primary-600 col-span-6 md:col-span-3">
+                                    PRACTICING<br>PROFESSIONAL</p>
+                                <p
+                                    class="text-sm font-bold px-4 py-2 rounded-full bg-white text-primary-600 col-span-6 md:col-span-3">
+                                    HOSPITAL &amp; HEALTH<br>SYSTEMS</p>
+                                <p
+                                    class="text-sm font-bold px-4 py-2 rounded-full bg-white text-primary-600 col-span-6 md:col-span-3">
+                                    INSTITUTION OR<br>GROUP</p>
+                                <p
+                                    class="text-sm font-bold px-4 py-2 rounded-full bg-white text-primary-600 col-span-6 md:col-span-3">
+                                    STUDENT OR<br>RESIDENT</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-end">
+                            <img src="data:image/png;base64,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"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!--4-->
+                <div>
+                    <div class="w-12/12 mx-auto text-center py-10">
+                        <h3 class="text-xl text-gray-700">— EST. 1994 —</h3>
+                        <h3 class="text-2xl font-semibold text-gray-700 my-5">For over 25 years, PEPID has been a
+                            leading
+                            developer of clinical and drug information resources and mobile applications for healthcare
+                            providers, hospitals, and schools.</h3>
+                        <p class="md:text-4xl text-3xl font-bold text-blue-700">PEPID HAS ALL THE TOOLS YOU NEED TO GET
+                            THE
+                            JOB DONE RIGHT.</p>
+                        <button
+                            class="text-2xl font-bold text-white bg-red-500 hover:bg-red-600 px-6 py-2 rounded-full my-5">SUBSCRIBE</button>
+                        <p class="md:text-4xl text-3xl font-bold text-blue-700">MEDICAL CONTENT AND TOOLS</p>
+                    </div>
+                    <img src="https://pepid-clone-amt.netlify.app/static/media/Iphone-identified-v3.3ebecb8ac8895c62a3e4.jpg"
+                        class="w-10/12 mx-auto bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800" alt="..." />
+                    <img src="https://pepid-clone-amt.netlify.app/static/media/monograph-v3.f6a098f060f1e34b8987.jpg"
+                        class="w-10/12 mx-auto bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800" alt="..." />
+                </div>
+
+
+                <!--5-->
+                <div class="bg-pic-3 bg-cover py-10"
+                    style="background-image: url('https://pepid-clone-amt.netlify.app/static/media/smart-city-1v3.cc0c96c38fe085c5f4ba.png');">
+                    <div class="grid grid-cols-12 w-10/12 mx-auto items-center gap-5">
+                        <div class="text-white col-span-12 md:col-span-6">
+                            <p class="font-bold">Everything you need in one powerful app</p>
+                            <h5 class="text-5xl font-bold mb-10">WELCOME TO PEPID.</h5>
+                            <p class="text-xl">Established in 1994, PEPID’s complete catalog of healthcare information
+                                solutions supports thousands of institutions across the globe. Extensive, intuitive, and
+                                easily integrated – PEPID’s clinical and drug databases strengthen critical
+                                decision-making
+                                at any point-of-care and beyond. WATCH OVERVIEW VIDEO</p>
+                            <button
+                                class="text-2xl font-bold text-white bg-red-500 hover:bg-red-600 px-6 py-2 rounded-full my-5">WATCH
+                                OVERVIEW VIDEO</button>
+                        </div>
+                        <div class="col-span-12 md:col-span-6">
+                            <img src="https://pepid-clone-amt.netlify.app/static/media/hero-pepid-advisor-v1.8af910db762a99f7bfe3.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!--6-->
+                <div class="my-10 md:w-8/12 w-10/12 mx-auto text-center mb-20">
+                    <div class="flex justify-center">
+                        <img src="data:image/png;base64,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"
+                            alt="">
+                    </div>
+                    <h3 class="text-4xl font-bold text-blue-600">This is Our Legacy.</h3>
+                    <p class="my-5">
+                        As a training physician, Dr. Rosenbloom’s lab coat pockets overflowed with his handwritten,
+                        detailed
+                        medical and drug reference notes he realized it was invaluable in making diagnostic and
+                        therapeutic
+                        decisions. When the first personal digital assistants were released, Dr. Rosenbloom copied all
+                        of
+                        his notes into his handheld computer’s phone book.
                     </p>
-                    <button class="text-2xl font-bold text-white bg-red-500 hover:bg-red-600 px-6 py-2 rounded-full">
-                        VIEW FEATURES
-                    </button>
-                    <br><br>
-                    <button class="text-2xl font-bold text-white bg-red-500 hover:bg-red-600 px-6 py-2 rounded-full">
-                        SUBSCRIBE
-                    </button>
-                </div>
-            </div>
-
-            <!--3-->
-            <div style="background-image: url('https://pepid-clone-amt.netlify.app/static/media/female-doc.987a51f65c8760e0ee1f.jpg');"
-                class="bg-cover bg-no-repeat bg-center h-auto  w-screen flex items-center py-10 px-2">
-                <div class="w-screen mx-auto text-center">
-                    <h2 class="text-white font-bold text-3xl md:text-5xl">Unleash Your Potential &amp; Improve Patient
-                        Outcomes</h2>
-                    <p class="text-gray-100 text-lg my-5">PEPID’s content is specifically designed for you</p>
-                    <p class="text-orange-300 text-2xl font-bold">Please Choose Your Role or Profession</p>
                     <div class="flex justify-center my-5">
-                        <div class="grid grid-cols-12 gap-5">
-                            <p
-                                class="text-sm font-bold px-4 py-2 rounded-full bg-white text-primary-600 col-span-6 md:col-span-3">
-                                PRACTICING<br>PROFESSIONAL</p>
-                            <p
-                                class="text-sm font-bold px-4 py-2 rounded-full bg-white text-primary-600 col-span-6 md:col-span-3">
-                                HOSPITAL &amp; HEALTH<br>SYSTEMS</p>
-                            <p
-                                class="text-sm font-bold px-4 py-2 rounded-full bg-white text-primary-600 col-span-6 md:col-span-3">
-                                INSTITUTION OR<br>GROUP</p>
-                            <p
-                                class="text-sm font-bold px-4 py-2 rounded-full bg-white text-primary-600 col-span-6 md:col-span-3">
-                                STUDENT OR<br>RESIDENT</p>
-                        </div>
-                    </div>
-                    <div class="flex justify-end">
-                        <img src="data:image/png;base64,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"
+                        <img src="data:image/png;base64,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"
                             alt="">
                     </div>
-                </div>
-            </div>
-
-            <!--4-->
-            <div>
-                <div class="w-12/12 mx-auto text-center py-10">
-                    <h3 class="text-xl text-gray-700">— EST. 1994 —</h3>
-                    <h3 class="text-2xl font-semibold text-gray-700 my-5">For over 25 years, PEPID has been a leading
-                        developer of clinical and drug information resources and mobile applications for healthcare
-                        providers, hospitals, and schools.</h3>
-                    <p class="md:text-4xl text-3xl font-bold text-blue-700">PEPID HAS ALL THE TOOLS YOU NEED TO GET THE
-                        JOB DONE RIGHT.</p>
+                    <h3 class="text-4xl font-bold text-blue-600">To Every Modern Device</h3>
+                    <p class="my-5">
+                        Colleagues encouraged Dr. Rosenbloom to expand his electronic notes into a portable,
+                        comprehensive
+                        medical and drug resource for more widespread use. As a result, in 1994, Dr. Rosenbloom
+                        developed
+                        the first version of PEPID with an advisory board of more than 35 board-certified physicians and
+                        pharmacologists.
+                    </p>
+                    <h2 class="text-4xl font-bold text-blue-600">Where does PEPID content come from?</h2>
+                    <p class="text-xl">Trusted Content Partners. Frequent Updates. Peer-Reviewed.</p>
                     <button
-                        class="text-2xl font-bold text-white bg-red-500 hover:bg-red-600 px-6 py-2 rounded-full my-5">SUBSCRIBE</button>
-                    <p class="md:text-4xl text-3xl font-bold text-blue-700">MEDICAL CONTENT AND TOOLS</p>
+                        class="text-2xl font-bold text-white bg-blue-700 hover:bg-primary-600 px-6 py-2 rounded-full my-5">FIND
+                        OUT</button>
                 </div>
-                <img src="https://pepid-clone-amt.netlify.app/static/media/Iphone-identified-v3.3ebecb8ac8895c62a3e4.jpg"
-                    class="w-10/12 mx-auto bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800" alt="..." />
-                <img src="https://pepid-clone-amt.netlify.app/static/media/monograph-v3.f6a098f060f1e34b8987.jpg"
-                    class="w-10/12 mx-auto bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800" alt="..." />
-            </div>
 
+                <!--7-->
 
-            <!--5-->
-            <div class="bg-pic-3 bg-cover py-10"
-                style="background-image: url('https://pepid-clone-amt.netlify.app/static/media/smart-city-1v3.cc0c96c38fe085c5f4ba.png');">
-                <div class="grid grid-cols-12 w-10/12 mx-auto items-center gap-5">
-                    <div class="text-white col-span-12 md:col-span-6">
-                        <p class="font-bold">Everything you need in one powerful app</p>
-                        <h5 class="text-5xl font-bold mb-10">WELCOME TO PEPID.</h5>
-                        <p class="text-xl">Established in 1994, PEPID’s complete catalog of healthcare information
-                            solutions supports thousands of institutions across the globe. Extensive, intuitive, and
-                            easily integrated – PEPID’s clinical and drug databases strengthen critical decision-making
-                            at any point-of-care and beyond. WATCH OVERVIEW VIDEO</p>
-                        <button
-                            class="text-2xl font-bold text-white bg-red-500 hover:bg-red-600 px-6 py-2 rounded-full my-5">WATCH
-                            OVERVIEW VIDEO</button>
-                    </div>
-                    <div class="col-span-12 md:col-span-6">
-                        <img src="https://pepid-clone-amt.netlify.app/static/media/hero-pepid-advisor-v1.8af910db762a99f7bfe3.png"
-                            alt="">
-                    </div>
-                </div>
-            </div>
-
-            <!--6-->
-            <div class="my-10 md:w-8/12 w-10/12 mx-auto text-center mb-20">
-                <div class="flex justify-center">
-                    <img src="data:image/png;base64,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"
-                        alt="">
-                </div>
-                <h3 class="text-4xl font-bold text-blue-600">This is Our Legacy.</h3>
-                <p class="my-5">
-                    As a training physician, Dr. Rosenbloom’s lab coat pockets overflowed with his handwritten, detailed
-                    medical and drug reference notes he realized it was invaluable in making diagnostic and therapeutic
-                    decisions. When the first personal digital assistants were released, Dr. Rosenbloom copied all of
-                    his notes into his handheld computer’s phone book.
-                </p>
-                <div class="flex justify-center my-5">
-                    <img src="data:image/png;base64,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"
-                        alt="">
-                </div>
-                <h3 class="text-4xl font-bold text-blue-600">To Every Modern Device</h3>
-                <p class="my-5">
-                    Colleagues encouraged Dr. Rosenbloom to expand his electronic notes into a portable, comprehensive
-                    medical and drug resource for more widespread use. As a result, in 1994, Dr. Rosenbloom developed
-                    the first version of PEPID with an advisory board of more than 35 board-certified physicians and
-                    pharmacologists.
-                </p>
-                <h2 class="text-4xl font-bold text-blue-600">Where does PEPID content come from?</h2>
-                <p class="text-xl">Trusted Content Partners. Frequent Updates. Peer-Reviewed.</p>
-                <button
-                    class="text-2xl font-bold text-white bg-blue-700 hover:bg-primary-600 px-6 py-2 rounded-full my-5">FIND
-                    OUT</button>
-            </div>
-
-            <!--7-->
-            <div class="h-56 sm:h-64 xl:h-80 2xl:h-96">
-                <div class="relative h-full w-full" data-testid="carousel">
-                    <div
-                        class="flex h-full snap-mandatory overflow-y-hidden overflow-x-scroll scroll-smooth rounded-lg snap-x indiana-scroll-container indiana-scroll-container--hide-scrollbars indiana-scroll-container--native-scroll">
-                        <div class="w-full flex-shrink-0 transform cursor-grab snap-center" data-active="false"
-                            data-testid="carousel-item">
-                            <div
-                                class="absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2 flex h-full items-center justify-center">
-                                <div>
-                                    <p class="md:text-3xl text-xl font-semibold text-center px-10">
-                                        "I use PEPID all the time in the ED and have for years. I appreciate all the
-                                        effort and the good solid product. More than once I have been a better doctor
-                                        because of PEPID."
-                                    </p>
-                                    <h2 class="text-center md:text-2xl text-lg font-bold text-gray-600 pb-10">Alex
-                                        Mohseni, MD</h2>
-                                </div>
+                <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                    <!-- Carousel wrapper -->
+                    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <div>
+                                <p class="md:text-3xl text-xl font-semibold text-center px-10">
+                                    "I use PEPID all the time in the ED and have for years. I appreciate all the
+                                    effort and the good solid product. More than once I have been a better doctor
+                                    because of PEPID."
+                                </p>
+                                <h2 class="text-center md:text-2xl text-lg font-bold text-gray-600 pb-10">Alex
+                                    Mohseni, MD</h2>
                             </div>
                         </div>
-                        <div class="w-full flex-shrink-0 transform cursor-grab snap-center" data-active="true"
-                            data-testid="carousel-item">
-                            <div
-                                class="absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2 flex h-full items-center justify-center">
-                                <div>
-                                    <p class="md:text-3xl text-xl font-semibold text-center px-10">
-                                        PEPID is a comprehensive, reliable tool that you’ll use almost as often as your
-                                        stethoscope.
-                                    </p>
-                                    <h2 class="text-center md:text-2xl text-lg font-bold text-gray-600 pb-10">Alex
-                                        Mohseni, MD</h2>
-                                </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                            <div>
+                                <p class="md:text-3xl text-xl font-semibold text-center px-10">
+                                    PEPID is a comprehensive, reliable tool that you’ll use almost as often as your
+                                    stethoscope.
+                                </p>
+                                <h2 class="text-center md:text-2xl text-lg font-bold text-gray-600 pb-10">Alex
+                                    Mohseni, MD</h2>
                             </div>
                         </div>
                     </div>
-                    <div class="absolute bottom-5 left-1/2 flex -translate-x-1/2 space-x-3">
-                        <button
-                            class="h-3 w-3 rounded-full bg-white/50 hover:bg-white dark:bg-gray-800/50 dark:hover:bg-gray-800"
-                            data-testid="carousel-indicator"></button>
-                        <button class="h-3 w-3 rounded-full bg-white dark:bg-gray-800"
-                            data-testid="carousel-indicator"></button>
-                    </div>
-                    <div class="absolute top-0 left-0 flex h-full items-center justify-center px-4 focus:outline-none">
-                        <button class="group" data-testid="carousel-left-control" type="button">
-                            <span
-                                class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 sm:h-10 sm:w-10">
-                                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24"
-                                    class="h-5 w-5 text-white dark:text-gray-800 sm:h-6 sm:w-6" height="1em" width="1em"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M15 19l-7-7 7-7"></path>
-                                </svg>
-                            </span>
-                        </button>
-                    </div>
-                    <div class="absolute top-0 right-0 flex h-full items-center justify-center px-4 focus:outline-none">
-                        <button class="group" data-testid="carousel-right-control" type="button">
-                            <span
-                                class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 sm:h-10 sm:w-10">
-                                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24"
-                                    class="h-5 w-5 text-white dark:text-gray-800 sm:h-6 sm:w-6" height="1em" width="1em"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M9 5l7 7-7 7"></path>
-                                </svg>
-                            </span>
-                        </button>
-                    </div>
+                    <!-- Slider controls -->
+                    <button type="button"
+                        class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                        data-carousel-prev>
+                        <span
+                            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                            <svg aria-hidden="true" class="w-6 h-6 text-white dark:text-gray-800" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 19l-7-7 7-7">
+                                </path>
+                            </svg>
+                            <span class="sr-only">Previous</span>
+                        </span>
+                    </button>
+                    <button type="button"
+                        class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                        data-carousel-next>
+                        <span
+                            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                            <svg aria-hidden="true" class="w-6 h-6 text-white dark:text-gray-800" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                                </path>
+                            </svg>
+                            <span class="sr-only">Next</span>
+                        </span>
+                    </button>
                 </div>
-            </div>
 
-            <!--8-->
-            <div class="w-10/12 mx-auto text-center">
-                <h3 class="text-3xl">Ready to get started?</h3>
-                <button
-                    class="text-2xl font-bold text-white bg-blue-500 hover:bg-primary-600 px-6 py-2 rounded-full my-5">START
-                    A 2-WEEK FREE TRIAL</button>
-                <div class="flex justify-center my-10">
-                    <img src="data:image/png;base64,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"
-                        alt="">
-                </div>
-                <h3 class="text-3xl text-gray-600">Timely Insights for Healthcare Experts</h3>
-                <div class="md:w-9/12 mx-auto">
+
+                <!--8-->
+                <div class="w-10/12 mx-auto text-center">
+                    <h3 class="text-3xl">Ready to get started?</h3>
+                    <button
+                        class="text-2xl font-bold text-white bg-blue-500 hover:bg-primary-600 px-6 py-2 rounded-full my-5">START
+                        A 2-WEEK FREE TRIAL</button>
                     <div class="flex justify-center my-10">
-                        <img src="https://pepid-clone-amt.netlify.app/static/media/BA2-Variant-Hero2.100bbc0da1aa16bc2022.jpg"
+                        <img src="data:image/png;base64,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"
                             alt="">
                     </div>
-                    <h3 class="font-bold text-3xl text-blue-600 text-left">Omicron Variant: BA.2</h3>
-                    <p class="text-xl text-left mt-2">Omicron Variant: BA.2 Sublineage By Hannah Morpurgo and Julia
-                        Schurr According to the World Health Organization, by February 19, 2022, BA.2 had been detected
-                        in 74 countries and 47 US states. BA.2 is a subvariant of Omicron which, according to studies
-                        from the UK and...</p>
-                    <p class="text-xl text-left text-primary-600 mt-2">Read More</p>
+                    <h3 class="text-3xl text-gray-600">Timely Insights for Healthcare Experts</h3>
+                    <div class="md:w-9/12 mx-auto">
+                        <div class="flex justify-center my-10">
+                            <img src="https://pepid-clone-amt.netlify.app/static/media/BA2-Variant-Hero2.100bbc0da1aa16bc2022.jpg"
+                                alt="">
+                        </div>
+                        <h3 class="font-bold text-3xl text-blue-600 text-left">Omicron Variant: BA.2</h3>
+                        <p class="text-xl text-left mt-2">Omicron Variant: BA.2 Sublineage By Hannah Morpurgo and Julia
+                            Schurr According to the World Health Organization, by February 19, 2022, BA.2 had been
+                            detected
+                            in 74 countries and 47 US states. BA.2 is a subvariant of Omicron which, according to
+                            studies
+                            from the UK and...</p>
+                        <p class="text-xl text-left text-primary-600 mt-2">Read More</p>
+                    </div>
                 </div>
-            </div>
 
-            <!--10-->
-            <div class="w-10/12 mx-auto my-5 grid grid-cols-12 gap-5 justify-between">
-                <div class="max-w-sm md:col-span-4 col-span-12">
-                    <div class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col"
-                        data-testid="flowbite-card">
-                        <img alt="" class="rounded-t-lg"
-                            src="https://pepid-clone-amt.netlify.app/static/media/p1.400322b73de8edce6928.jpg">
-                        <div class="flex h-full flex-col justify-center gap-4 p-6">
-                            <h5 class="text-2xl font-bold tracking-tight text-primary-600">EUA: Pfizer-BioNtech Covid-19
-                                Vaccine for Children Ages 5-11</h5>
-                            <p class="font-normal text-gray-700 dark:text-gray-400">Emergency Use Authorization The CDC
-                                now recommends the Pfizer-BioNTech COVID-19 vaccine (BNT162b2) for children ages 5-11
-                                years after the FDA’s EUA approval and support from the Advisory Committee on
-                                Immunization Practices (ACIP). The authorization is based on data...</p>
-                            <p class="text-xl text-left text-primary-600">Read More</p>
+                <!--10-->
+                <div class="w-10/12 mx-auto my-5 grid grid-cols-12 gap-5 justify-between">
+                    <div class="max-w-sm md:col-span-4 col-span-12">
+                        <div class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col"
+                            data-testid="flowbite-card">
+                            <img alt="" class="rounded-t-lg"
+                                src="https://pepid-clone-amt.netlify.app/static/media/p1.400322b73de8edce6928.jpg">
+                            <div class="flex h-full flex-col justify-center gap-4 p-6">
+                                <h5 class="text-2xl font-bold tracking-tight text-primary-600">EUA: Pfizer-BioNtech
+                                    Covid-19
+                                    Vaccine for Children Ages 5-11</h5>
+                                <p class="font-normal text-gray-700 dark:text-gray-400">Emergency Use Authorization The
+                                    CDC
+                                    now recommends the Pfizer-BioNTech COVID-19 vaccine (BNT162b2) for children ages
+                                    5-11
+                                    years after the FDA’s EUA approval and support from the Advisory Committee on
+                                    Immunization Practices (ACIP). The authorization is based on data...</p>
+                                <p class="text-xl text-left text-primary-600">Read More</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-sm md:col-span-4 col-span-12">
+                        <div class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col"
+                            data-testid="flowbite-card">
+                            <img alt="" class="rounded-t-lg"
+                                src="https://pepid-clone-amt.netlify.app/static/media/p2.38c9cb7df2c67fa38fbf.jpg">
+                            <div class="flex h-full flex-col justify-center gap-4 p-6">
+                                <h5 class="text-2xl font-bold tracking-tight text-primary-600">Omicron Variant –
+                                    Preliminary
+                                    Findings</h5>
+                                <p class="font-normal text-gray-700 dark:text-gray-400">Emergency Use Authorization The
+                                    CDC
+                                    now recommends the Pfizer-BioNTech COVID-19 vaccine (BNT162b2) for children ages
+                                    5-11
+                                    years after the FDA’s EUA approval and support from the Advisory Committee on
+                                    Immunization Practices (ACIP). The authorization is based on data...</p>
+                                <p class="text-xl text-left text-primary-600">Read More</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-sm md:col-span-4 col-span-12">
+                        <div class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col"
+                            data-testid="flowbite-card">
+                            <img alt="" class="rounded-t-lg"
+                                src="https://pepid-clone-amt.netlify.app/static/media/p3.f8ac48010b62ace7bbc9.jpg">
+                            <div class="flex h-full flex-col justify-center gap-4 p-6">
+                                <h5 class="text-2xl font-bold tracking-tight text-primary-600">Peripheral Nerve Blocks
+                                    for
+                                    Headaches in the ED</h5>
+                                <p class="font-normal text-gray-700 dark:text-gray-400">Emergency Use Authorization The
+                                    CDC
+                                    now recommends the Pfizer-BioNTech COVID-19 vaccine (BNT162b2) for children ages
+                                    5-11
+                                    years after the FDA’s EUA approval and support from the Advisory Committee on
+                                    Immunization Practices (ACIP). The authorization is based on data...</p>
+                                <p class="text-xl text-left text-primary-600">Read More</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="max-w-sm md:col-span-4 col-span-12">
-                    <div class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col"
-                        data-testid="flowbite-card">
-                        <img alt="" class="rounded-t-lg"
-                            src="https://pepid-clone-amt.netlify.app/static/media/p2.38c9cb7df2c67fa38fbf.jpg">
-                        <div class="flex h-full flex-col justify-center gap-4 p-6">
-                            <h5 class="text-2xl font-bold tracking-tight text-primary-600">Omicron Variant – Preliminary
-                                Findings</h5>
-                            <p class="font-normal text-gray-700 dark:text-gray-400">Emergency Use Authorization The CDC
-                                now recommends the Pfizer-BioNTech COVID-19 vaccine (BNT162b2) for children ages 5-11
-                                years after the FDA’s EUA approval and support from the Advisory Committee on
-                                Immunization Practices (ACIP). The authorization is based on data...</p>
-                            <p class="text-xl text-left text-primary-600">Read More</p>
-                        </div>
-                    </div>
+
+                <!--11-->
+                <div class="text-center py-10 mb-10">
+                    <h2 class="text-3xl font-bold text-primary-600">Not what you were looking for?</h2>
+                    <button
+                        class="text-2xl font-bold text-white bg-blue-500 hover:bg-primary-600 px-6 py-2 rounded-full my-5">VIEW
+                        OTHER PRODUCTS</button>
+                    <p class="text-lg text-gray-600">or call us 888.321.7828</p>
                 </div>
-                <div class="max-w-sm md:col-span-4 col-span-12">
-                    <div class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col"
-                        data-testid="flowbite-card">
-                        <img alt="" class="rounded-t-lg"
-                            src="https://pepid-clone-amt.netlify.app/static/media/p3.f8ac48010b62ace7bbc9.jpg">
-                        <div class="flex h-full flex-col justify-center gap-4 p-6">
-                            <h5 class="text-2xl font-bold tracking-tight text-primary-600">Peripheral Nerve Blocks for
-                                Headaches in the ED</h5>
-                            <p class="font-normal text-gray-700 dark:text-gray-400">Emergency Use Authorization The CDC
-                                now recommends the Pfizer-BioNTech COVID-19 vaccine (BNT162b2) for children ages 5-11
-                                years after the FDA’s EUA approval and support from the Advisory Committee on
-                                Immunization Practices (ACIP). The authorization is based on data...</p>
-                            <p class="text-xl text-left text-primary-600">Read More</p>
-                        </div>
-                    </div>
+
+                <!--12-->
+                <div
+                    class="p-4 px-10 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 bottom-0 w-full">
+                    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+                        © 2023 <a href="https://Data-Fetch.com/" class="hover:underline">Data-Fetch™</a>. All Rights
+                        Reserved.
+                    </span>
+                    <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+                        <li><a href="#" class="mr-4 hover:underline md:mr-6">About</a></li>
+                        <li><a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a></li>
+                        <li><a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a></li>
+                        <li><a href="#" class="hover:underline">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-
-            <!--11-->
-            <div class="text-center py-10 mb-10">
-                <h2 class="text-3xl font-bold text-primary-600">Not what you were looking for?</h2>
-                <button
-                    class="text-2xl font-bold text-white bg-blue-500 hover:bg-primary-600 px-6 py-2 rounded-full my-5">VIEW
-                    OTHER PRODUCTS</button>
-                <p class="text-lg text-gray-600">or call us 888.321.7828</p>
-            </div>
-
-
-
-
-
-
-
-
-
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
